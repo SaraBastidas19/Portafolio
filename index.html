@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sara</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="../img/hero.png" alt="">
+            </div>
+            <h1>Sara Bastidas</h1>
+            <h2>Ingeniera de Sistemas e informática</h2>
+            <div class="redes">
+
+                <a href="https://github.com/SaraBastidas19"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sarabastidasburgos/"><i class="fa-brands fa-linkedin-in"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Sara Bastidas.</span> Soy una persona práctica y enfocada en cumplir mis objetivos. Desde hace
+                años, la programación ha despertado mi interés, motivándome a aprender, innovar y aplicar nuevos
+                conocimientos constantemente. Disfruto trabajar en equipo, ya que cada persona aporta una visión única
+                que enriquece el aprendizaje y la creatividad. Mi enfoque proactivo y mi pasión por el aprendizaje me
+                han permitido desarrollar soluciones efectivas y contribuir al logro de diversas metas.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            19-11-2003
+                        </li>
+
+                        <li>
+                            <strong>Email</strong>
+                            sarabastidasburgos@gmail.com
+                        </li>
+
+                        <li>
+                            <strong>Dirección</strong>
+                            Medellín, Antioquia, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrolladora de Software</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-basketball-ball"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-robot"></i>
+                            <span>IA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-paw"></i>
+                            <span>ANIMALES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book-open"></i>
+                            <span>LIBROS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-boton">
+            <a href="img/Sara Bastidas.pdf" target="_blank" class="boton-cv">
+                Ver Hoja de Vida
+            </a>
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Metodologías Agiles</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Oracle db</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+
+                    <div class="item izq">
+                        <h4>Ingeniería de Sistemas e Informática</h4>
+                        <span class="casa">Universidad Pontificia Bolivariana</span>
+                        <span class="fecha">2021 - presente</span>
+                        <p>Durante la pandemia, tuve la oportunidad de adentrarme en el mundo de la programación, lo que
+                            me motivó a estudiar esta carrera. He aprendido mucho de mis maestros y compañeros, lo que
+                            me ha permitido descubrir mis intereses en un ámbito tan vasto como lo es la tecnología.
+                            Actualmente, estoy cautivada por el desarrollo frontend y las buenas prácticas de diseño,
+                            con el objetivo de crear proyectos que no solo sean útiles, sino que también logren cautivar
+                            a los clientes. Además, soy parte activa del semillero de música de la universidad y he sido
+                            monitora dentro de mi facultad, lo que me ha brindado valiosas experiencias de aprendizaje y
+                            colaboración.
+
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Inglés y Frances</h4>
+                        <span class="casa">LCN Idiomas</span>
+                        <span class="fecha">2024 - presente</span>
+                        <p>El inglés siempre me ha parecido un idioma fundamental, no solo para la vida, sino también en
+                            el ámbito de la programación. Durante el último año, he dedicado parte de mi tiempo libre a
+                            mejorar mi dominio del idioma, con el objetivo de abrir nuevas oportunidades. Además, me he
+                            sentido cautivada por el francés y estoy entusiasmada por aprender este nuevo idioma para
+                            poder conocer a nuevas personas.
+
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller académico</h4>
+                        <span class="casa">Liceo de la Universidad de Nariño</span>
+                        <span class="fecha">2017 - 2019</span>
+                        <p>Terminé mis estudios como bachiller en la ciudad de Pasto. Durante este período, descubrí
+                            algunas de mis pasiones que aún conservo. El baloncesto fue fundamental en mi vida; formé
+                            parte del equipo representativo del colegio y de varios clubes, lo que me permitió aprender
+                            sobre el trabajo en equipo y las relaciones interpersonales. También fui integrante del
+                            grupo base de música de mi institución, donde aprendí la importancia de la dedicación y el
+                            compromiso para alcanzar mis metas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Mis Proyectos</h3>
+                    <div class="item der">
+                        <h4>Front Developer - UX/UI Designer</h4>
+                        <span class="casa">Búho Parrilla</span>
+                        <span class="fecha">2025 - presente </span>
+                        <p>"Búho Parrilla" es una página web diseñada para mejorar la presencia digital de un
+                            restaurante
+                            especializado en carnes a la parrilla. Me encargué de toda la parte de diseño UX/UI,
+                            asegurando una experiencia atractiva y funcional para los usuarios. Además, participé en los
+                            principios de desarrollo y en la comunicación con el cliente para adaptar la web a sus
+                            necesidades. La plataforma es responsive, construida con las mejores prácticas de diseño y
+                            accesibilidad, garantizando una navegación fluida tanto en dispositivos móviles como en
+                            escritorio.
+                            <a
+                                href="https://www.figma.com/proto/uP8Wtc6ki4mM5HmV5PREK6/Buho_Parrilla?node-id=1066-211&t=eH5LL01Oe2yKwI7u-1&scaling=min-zoom&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=1066%3A211">Prototipo</a>
+
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Full Stack Developer</h4>
+                        <span class="casa">Selene for Women</span>
+                        <span class="fecha">2024 </span>
+                        <p>"Selene for Women" es una aplicación diseñada para ayudar a las mujeres a llevar un
+                            registro
+                            de su ciclo menstrual, proporcionando información valiosa para su salud sexual. Es una
+                            aplicación responsive, construida con HTML, CSS y JavaScript, que se puede descargar en
+                            dispositivos móviles. Es completamente gratuita y no requiere conexión a internet, lo
+                            que la
+                            hace accesible para una mayor cantidad de personas.
+                            <a
+                                href="https://www.figma.com/proto/LwpTIajLozuNPqlwHXWuPr/Untitled?node-id=98-22&t=M0bOsL7dA0rGq2hW-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=20%3A15">Prototipo</a>
+                        <H1></H1>
+                        <a href="https://github.com/SaraBastidas19/Selene_am.git">Repositorio</a>
+
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Full Stack Developer</h4>
+                        <span class="casa">Huellas de esperanza</span>
+                        <span class="fecha">2024</span>
+                        <p>Este proyecto consiste en la creación de un sitio web para facilitar donaciones destinadas a
+                            mejorar la vida de los habitantes de calle en Medellín. A través de la plataforma, buscamos
+                            sensibilizar a la comunidad y recaudar fondos para rehabilitación, alimentación, y atención
+                            médica, en colaboración con fundaciones locales. El sitio, desarrollado con HTML, CSS y
+                            JavaScript, es responsive y está diseñado para ofrecer una navegación óptima, ayudando a las
+                            fundaciones a ampliar su alcance y apoyar a más personas.
+                        <h1></h1>
+                        <a href="https://johnson1255.github.io/Pagina_Concientizadora/main.html">Semillas de
+                            cambio</a>
+                        <h1></h1>
+                        <a href="https://github.com/Johnson1255/Pagina_Concientizadora">Repositorio</a>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/imagenes/Diseño sin título.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Figma</h3>
+                        <p>Búho Parrilla</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/imagenes/2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Figma</h3>
+                        <p>Veterinaria</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../img/imagenes/1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Figma</h3>
+                        <p>Selene</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../img/imagenes/4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Figma</h3>
+                        <p>AppartApp</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../img/imagenes/5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Página Web</h3>
+                        <p>Semillas de Cambio</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="../img/imagenes/6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Figma</h3>
+                        <p>IndeApp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/SaraBastidas19"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sarabastidasburgos/"><i class="fa-brands fa-linkedin-in"></i></a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
