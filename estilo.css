@@ -12,6 +12,15 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    cursor: default;
+}
+
+/* Asegúrate de que los elementos interactivos tengan el cursor adecuado */
+a, button {
+    cursor: pointer;
+}
+
 /* MENU */
 .contenedor-header {
     background: #000000;
