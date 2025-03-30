@@ -11,15 +11,12 @@ html {
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
 }
-
-body {
-    cursor: default;
+/* Evita que el cursor de texto aparezca en elementos no editables */
+body, div, span, p, h1, h2, h3, h4, h5, h6 {
+    user-select: none; /* Evita la selección de texto */
+    cursor: default; /* Cambia el cursor al estándar */
 }
 
-/* Asegúrate de que los elementos interactivos tengan el cursor adecuado */
-a, button {
-    cursor: pointer;
-}
 
 /* MENU */
 .contenedor-header {
@@ -75,10 +72,11 @@ a, button {
     display: none;
 }
 
+
 /* SECCION I N I C I O */
 .inicio {
     background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
-        url(img/fondo.jpg);
+        url(img/hero.png);
     background-size: cover;
     height: 100vh;
     color: #000000;
